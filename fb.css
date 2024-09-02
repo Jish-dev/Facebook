@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+body{
+    width: 100%;
+    background-color: #f2f4f7;
+
+}
+form{
+    background-color: #fff;
+    position: absolute;
+    width: 320px;
+    height: 270px;
+    padding: 10px 5px 20px 5px;
+    margin: -10vh 850px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+}
+input[type="text"], input[type=password]{
+        display: block;
+        background-color: #fff;
+        margin: auto;
+        border: 1.5px solid rgb(200, 200, 200);
+        width: 200px;
+        padding: 10px 40px;
+        border-radius: 5px;
+        text-align: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    button{
+        border: none;
+        background-color: #0866ff;
+        color: white;
+        margin: auto;
+        width: 283px;
+        display: block;
+        border-radius: 5px;
+        padding: 10px 0;
+        font-weight: bold;
+        font-size: 17px;
+        cursor: pointer;
+
+    }
+    .fg-pwd{
+        display: block;
+        width: 200px;
+        margin: auto;
+        float: left;
+        color: #2020e2;
+        font-weight: 400;
+        padding-left: 80px;
+    }
+    .line{
+        border-top: 1px solid #222;
+        opacity: 0.2;
+    }
+
+    .new{
+        width: 180px;
+        font-size: 14px;
+        background-color: #42b72a;
+        text-align: center;
+        cursor: pointer;
+
+    }
+.celeb h3 {
+    width: 400px;
+    position: relative;
+    color: black;
+    padding: 120px 860px;
+    font-size: 14px;
+    font-weight: normal;
+
+}
+
+.celeb h3 a{
+    width: 100px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+.container{
+    width: 482px;
+    margin-left: 256px;
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+}
+.container img{
+    width: 306px;
+    margin: -5px -30px;
+
+}
+p{
+    font-size: 27px;
+    font-weight: 400;
+    
+}
+.pass{
+    padding-left: 78px;
+}
